@@ -14,6 +14,7 @@ let handleRequest = (request, response) => {
         } else {
             response.write(data);
         }
+        // end() method to show we are done handling the request
         response.end();
     });
 }
